@@ -51,7 +51,7 @@ class Program
             foreach (string file in Directory.EnumerateFiles(
                          directory,
                          fileMask,
-                         SearchOption.AllDirectories))
+                         SearchOption.TopDirectoryOnly))
             {
                 processed++;
 
